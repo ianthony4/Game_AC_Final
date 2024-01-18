@@ -1,26 +1,3 @@
-"""
-
-  ____          _____               _ _           _       
- |  _ \        |  __ \             (_) |         | |      
- | |_) |_   _  | |__) |_ _ _ __ _____| |__  _   _| |_ ___ 
- |  _ <| | | | |  ___/ _` | '__|_  / | '_ \| | | | __/ _ \
- | |_) | |_| | | |  | (_| | |   / /| | |_) | |_| | ||  __/
- |____/ \__, | |_|   \__,_|_|  /___|_|_.__/ \__, |\__\___|
-         __/ |                               __/ |        
-        |___/                               |___/         
-    
-____________________________________
-/ Si necesitas ayuda, contáctame en \
-\ https://parzibyte.me               /
- ------------------------------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
-Creado por Parzibyte (https://parzibyte.me). Este encabezado debe mantenerse intacto,
-excepto si este es un proyecto de un estudiante.
-"""
 import pygame
 import sys
 import math
@@ -182,7 +159,7 @@ Iniciamos la pantalla con las medidas previamente calculadas, colocamos título 
 reproducimos el sonido de fondo
 """
 pantalla_juego = pygame.display.set_mode((anchura_pantalla, altura_pantalla))
-pygame.display.set_caption('Memorama en Python - By Parzibyte')
+pygame.display.set_caption('Memorama en Python')
 pygame.mixer.Sound.play(sonido_fondo, -1)  # El -1 indica un loop infinito
 # Ciclo infinito...
 while True:
