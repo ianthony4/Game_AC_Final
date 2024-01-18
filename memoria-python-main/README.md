@@ -1,1 +1,0 @@
-# Memorama en Python y PyGame para el proyecto final de Arquitectura de Computadoras
